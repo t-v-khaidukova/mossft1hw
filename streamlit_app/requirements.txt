@@ -1,5 +1,0 @@
-streamlit
-soundfile
-numpy
-plotly
-requests
