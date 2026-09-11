@@ -1,0 +1,4 @@
+# altair and pandas ship WITH streamlit, so the chart JS always matches the
+# frontend. Do not add plotly back: an unpinned plotly gives the browser-side
+# "TypeError: Importing a module script failed" on a fresh deploy.
+streamlit>=1.36,<2
